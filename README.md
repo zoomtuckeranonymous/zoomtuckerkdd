@@ -19,13 +19,15 @@ Our code requires Tensor Toolbox version 3.0 (available at https://gitlab.com/te
 ## How to run for sample data
 For a simple test, we generate a random tensor.
 We provide demo scripts for our method, Zoom-Tucker.
-First, you run the MATLAB program, and then you should add paths into MATLAB environment. Please type the following command in MATLAB:
-    `addPaths`
+First, you run the MATLAB program, and then you should add paths into MATLAB environment. Please type the following command in MATLAB:  
+   
+   `addPaths`
 
-Then, type the following command to run the preprocessing phase for a given data:
-    `run run_demo_zoom_sample_preprocessing`
+Then, type the following command to run the preprocessing phase for a given data:  
+   
+   `run run_demo_zoom_sample_preprocessing`
 
-After finishing the preprocessing phase, type the following command to run the query phase for a given time range query:
+After finishing the preprocessing phase, type the following command to run the query phase for a given time range query:  
  
    `run run_demo_zoom_sample_query`    
 
@@ -33,15 +35,18 @@ After finishing the preprocessing phase, type the following command to run the q
 We used 6 real-world tensor datasets in the experiment.
 We provide demo scripts for Stock dataset.
 First, you download Stock dataset from [link](https://drive.google.com/file/d/1iMn0EpsCpE4FooINg1u4Z9I8OAktCW6h/view?usp=sharing), and extract the tgz file, and move the extracted folder to Zoom-Tucker directory (home directory of this repository).
-Next, you run the MATLAB program, and then you should add paths into MATLAB environment. Please type the following command in MATLAB:
-    `addPaths`
+Next, you run the MATLAB program, and then you should add paths into MATLAB environment. Please type the following command in MATLAB:  
+    
+   `addPaths`
 
 
-Then, type the following command to run the preprocessing phase for a given data:
-    `run run_demo_zoom_realworld_preprocessing`
+Then, type the following command to run the preprocessing phase for a given data:  
+   
+   `run run_demo_zoom_realworld_preprocessing`
 
-After finishing the preprocessing phase, type the following command to run the query phase for a given time range query:
-    `run run_demo_zoom_realworld_query`       
+After finishing the preprocessing phase, type the following command to run the query phase for a given time range query:  
+   
+   `run run_demo_zoom_realworld_query`       
 
 You can run Zoom-Tucker on other datasets if you download them from links, and do data preprocessing like Stock dataset.
 
